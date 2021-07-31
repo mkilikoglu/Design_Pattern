@@ -1,9 +1,0 @@
-***Builder Design Pattern****
--Bu tasarım desene constructor ile ilgilidir.
--Örneğini almak istediğimiz sınıfı oluşturması çok fazla parametre istiyor ve   farklı şekillde constructorumuz olduğunu düşünelim.
--Örneğimizde opsiyonel olarak aldığımız araç düşünelim.Plakayı zorunlu alalım nesne olusturuken öyle farzedelim.Diğer kısımlar
-isteğe göre alınabilsin.
--Toyota aracı için burda 8 opsiyon belirledik ama bu belki 50 tane olabilirdi. Bu durumda her biri constructoru olusturmak gerekirdi.
--Eğer builder design patterni kullanırsak istediğimiz alanlar şeklinde yine oluşturabiliriz ama daha kullanışlı olarak karşımıza çıkar
--Çok fazla kod okunurluğa zarar vereceği için bu yöntem de ihtiyac duyulan durumlarda kullanılabilir.
--Ayrıyeten java da loombok küütüphanesi bize tüm getter,setter,constructor,builder sınıfları için kolaylıklar sağladığını unutmayalım
