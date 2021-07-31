@@ -1,0 +1,11 @@
+****Eager Initialization****
+-Singleton olmasını istediğimiz sınıfımız çok fazla kaynak kullanmıyorsa ,Kullanabileceğimiz bir yöntemdir.
+-Genellikle bu design pattern için veritabanı bağlantısı örneği verilir.
+-binlerce ve ya daha fazla clienti bulunan bir servisimiz olduğunu düşünelim.Bizim servisimize sürekli istekler gelecektir.
+-Eğer biz her seferinde Database'imize bağlanmak için nesne oluşturursak bellekte buna karşı yer açılması gerekecektir.
+-örneğimizde yine static ile instance oluşturuyoruz. contructorunu private yaparak engelliyoruz.getInstance() ile oluşturulan
+instance sürekli kullanılabiliyor.
+-Main fonksiyonunu çalıştırdıımızda ilk kez oluşturulanı yazdıracaktır.İlk oluşturduğumuzda instance nesnesine atayacaktır.
+-Sınıfın yükleme anında her zaman oluşur. Kullanılmazsa bile yer kaplar.Çok fazla kaynak tarafından kullanılmıyorsabu yöntem uygundur.
+-Singleton tasarım deseninin amacı bir nesne bir defa oluşturulmalıdır.Var olan instance bulnuyorsa onu kullanmalıdır.
+-Bu gereksiz instance oluşmasının önüne geçilir.

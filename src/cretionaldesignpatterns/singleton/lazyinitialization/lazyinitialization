@@ -1,0 +1,4 @@
+*****LAZY INITIALIZATION*****
+-Sadece nesneye erişildiğinde kullanırız. eager,static gibi kullanmadığımız durumlarda oluşmayacaktır.
+-birden fazla  thread kullanılmadığı zaman uygundur.
+-multithread kullanılmayacaksa en doğru yöntem olabilir.

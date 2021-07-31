@@ -1,0 +1,8 @@
+*****Abstract Factory Design Pattern *******
+-factory design pattern ile ilişki olan nesnelerin üretimni tek bir arayüz aracılııyla oluştururuz.
+-Abstract factory design pattern ile birden fazla benzer özellik gösteren classların nesnelerini oluşturmak için kullanırız.
+-Factory design patterninin yetmediği durumlarda abstract design patternine başvururuz.
+-factory patterninden fazladan AbstractFactory interface olusturuz. 1. örneğimizde MobilyaAbstratFactory interface i olusturduk
+daha sonra masa,sandalye,koltuk factory classlarını olusurupMobilyaAbstratFactory clasını implemente ettik.daha sonra bunları mobilyaFactory classında
+nesnelerimizi ürettilk.
+-Main sınıfımızda ise mobilya factory kullanıp üretmek istediğimiz nesneyi istediği parametreler ile gönderip oluşturduk.
