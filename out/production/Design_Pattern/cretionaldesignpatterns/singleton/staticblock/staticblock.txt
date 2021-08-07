@@ -1,0 +1,4 @@
+****static block intialization****
+-Eager initializion ile benzerdir yapıya sahiptir.exception yapisina sahiptir.
+-Aynı şekilde instanc hiç kullanmadığımız durumlar olablir.Eager ve Static Block yönetinde kullanmasak bile beklemede kalıyor.
+-thread problemi devam ediyor

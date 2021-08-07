@@ -10,6 +10,7 @@ public class DBConnectionBillPagh {
     }
 
     private String baglanti;
+
     public static DBConnectionBillPagh getDbConnectionInstance(){
 
         return helper.CONNECTION_INSTANCE_BILL_PAGH;

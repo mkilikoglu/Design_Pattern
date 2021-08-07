@@ -1,7 +1,6 @@
 ***PROTOTYPE***
 -Bu tasarım deseni oluşturulması büyük hacme sahip nesnelerin , birden fazla new operatorü kullanmadan ,
 önceden oluşturulmuş nesnenin clonunun alınarak tekrar kullanılmasını hedefler. Prototype oluşturabilmek için
-abstract ya da interface kullanılarak sağlanır.
+abstract ya da iinterface kullanılarak sağlanır.
 -örneğimizde hayali olarak toyota firmasının ürettiği araçlara opsiyonel olarak özellik eklemesini düşünürsek.
 Araç üretilen fabrikada bir önceki kullanılan opsiyonel aracın özelliklerini clone ederek değiştirerek tekrar ürettirebiliriz.
--main sınıfın clonable olması gerekmektedir.
