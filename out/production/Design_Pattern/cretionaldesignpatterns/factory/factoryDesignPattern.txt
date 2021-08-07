@@ -1,6 +1,0 @@
-**Factory Design Pattern****+
--Yapısal olarak birbirine benzeyen nesnelerin üretilmesini sağlayan popüler design patterndir.
--abstract ya da interface implemente yada extend eden sınıfların nesnelerinin üretiminden sorumludur.
--1. örneğimizde interface kullanarak araç üretimini yani nesne üretimini (corsa,astra,insignia) sağladık. new özelliğini kullanmadan
-üretici clasımız bize nesneyi oluşturup gönderdi.
--factory design patterni için 1. örneğimizde   interface yardımıyla olusturduk. bunu abstract class yardımı ile de olusturabilirdik

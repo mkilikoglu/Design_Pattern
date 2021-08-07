@@ -1,2 +1,0 @@
-***BILL PAGH****
--bu clasın instansına ne zaman ihtiyaç duyulduğunda o zaman bellekte yer ayrılır
