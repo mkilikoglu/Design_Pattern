@@ -1,0 +1,3 @@
+***THREAD SAFE **
+-multi thread ile çalışmamızı sağlayan static metoda synchronized eklenerek multi thread kullanımına uygunluğunu sağladık.
+-burada  synchronized performans sorunu yapabilir
